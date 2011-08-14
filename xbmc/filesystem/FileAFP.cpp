@@ -39,6 +39,7 @@ CFileAFP::~CFileAFP()
 
 bool CFileAFP::Open(const CURL& url)
 {
+  return false;
 //  CSingleLock lock(g_DaapClient);
 //  
 //  if (m_bOpened) Close();
@@ -92,6 +93,7 @@ void CFileAFP::Close()
 
 int64_t CFileAFP::Seek(int64_t iFilePosition, int iWhence)
 {
+  return 0;
 //  CSingleLock lock(g_DaapClient);
 //  
 //  int requestid = ++m_thisHost->request_id;

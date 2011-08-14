@@ -588,6 +588,10 @@
 		810C9FA90D67D1FB0095F5DD /* MythDirectory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 810C9FA50D67D1FB0095F5DD /* MythDirectory.cpp */; };
 		810C9FAA0D67D1FB0095F5DD /* MythFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 810C9FA70D67D1FB0095F5DD /* MythFile.cpp */; };
 		815EE6350E17F1DC009FBE3C /* DVDInputStreamRTMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 815EE6330E17F1DC009FBE3C /* DVDInputStreamRTMP.cpp */; };
+		8365C96813EDE09A00F20F16 /* AFPDirectory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8365C96413EDE09A00F20F16 /* AFPDirectory.cpp */; };
+		8365C96913EDE09A00F20F16 /* FileAFP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8365C96613EDE09A00F20F16 /* FileAFP.cpp */; };
+		8365C96A13EDE09A00F20F16 /* AFPDirectory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8365C96413EDE09A00F20F16 /* AFPDirectory.cpp */; };
+		8365C96B13EDE09A00F20F16 /* FileAFP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8365C96613EDE09A00F20F16 /* FileAFP.cpp */; };
 		83A72B910FBC8DB000171871 /* CoreAudioRenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A72B8E0FBC8DB000171871 /* CoreAudioRenderer.cpp */; };
 		83A72B940FBC8DFF00171871 /* CoreAudio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A72B920FBC8DFF00171871 /* CoreAudio.cpp */; };
 		83A72B970FBC8E3B00171871 /* LockFree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 83A72B950FBC8E3B00171871 /* LockFree.cpp */; settings = {COMPILER_FLAGS = "-O0"; }; };
@@ -2488,6 +2492,10 @@
 		810C9FA80D67D1FB0095F5DD /* MythFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MythFile.h; sourceTree = "<group>"; };
 		815EE6330E17F1DC009FBE3C /* DVDInputStreamRTMP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DVDInputStreamRTMP.cpp; sourceTree = "<group>"; };
 		815EE6340E17F1DC009FBE3C /* DVDInputStreamRTMP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVDInputStreamRTMP.h; sourceTree = "<group>"; };
+		8365C96413EDE09A00F20F16 /* AFPDirectory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AFPDirectory.cpp; sourceTree = "<group>"; };
+		8365C96513EDE09A00F20F16 /* AFPDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFPDirectory.h; sourceTree = "<group>"; };
+		8365C96613EDE09A00F20F16 /* FileAFP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FileAFP.cpp; sourceTree = "<group>"; };
+		8365C96713EDE09A00F20F16 /* FileAFP.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileAFP.h; sourceTree = "<group>"; };
 		83A72B8E0FBC8DB000171871 /* CoreAudioRenderer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CoreAudioRenderer.cpp; path = AudioRenderers/CoreAudioRenderer.cpp; sourceTree = "<group>"; };
 		83A72B8F0FBC8DB000171871 /* CoreAudioRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CoreAudioRenderer.h; path = AudioRenderers/CoreAudioRenderer.h; sourceTree = "<group>"; };
 		83A72B900FBC8DB000171871 /* IAudioRenderer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IAudioRenderer.h; path = AudioRenderers/IAudioRenderer.h; sourceTree = "<group>"; };
@@ -5532,6 +5540,10 @@
 		E38E16940D25F9FA00618676 /* filesystem */ = {
 			isa = PBXGroup;
 			children = (
+				8365C96413EDE09A00F20F16 /* AFPDirectory.cpp */,
+				8365C96513EDE09A00F20F16 /* AFPDirectory.h */,
+				8365C96613EDE09A00F20F16 /* FileAFP.cpp */,
+				8365C96713EDE09A00F20F16 /* FileAFP.h */,
 				DF0DF15713A3ADA7008ED511 /* FileNFS.cpp */,
 				DF0DF15813A3ADA7008ED511 /* FileNFS.h */,
 				DF0DF15913A3ADA7008ED511 /* NFSDirectory.cpp */,
@@ -8081,7 +8093,12 @@
 				3802709A13D5A653009493DD /* SystemClock.cpp in Sources */,
 				7CEE2E5B13D6B71E000ABF2A /* TimeSmoother.cpp in Sources */,
 				7C89674613C03B22003631FE /* InfoBool.cpp in Sources */,
+<<<<<<< HEAD
 				DFAB049813F8376700B70BFB /* InertialScrollingHandler.cpp in Sources */,
+=======
+				8365C96A13EDE09A00F20F16 /* AFPDirectory.cpp in Sources */,
+				8365C96B13EDE09A00F20F16 /* FileAFP.cpp in Sources */,
+>>>>>>> Stub-out initial AFP client implementation
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8976,7 +8993,12 @@
 				4308680D13E3F65700698436 /* Implementation.cpp in Sources */,
 				4308681213E3F66600698436 /* DVDOverlayCodecTX3G.cpp in Sources */,
 				7C89674813C03B22003631FE /* InfoBool.cpp in Sources */,
+<<<<<<< HEAD
 				DFAB049913F8376700B70BFB /* InertialScrollingHandler.cpp in Sources */,
+=======
+				8365C96813EDE09A00F20F16 /* AFPDirectory.cpp in Sources */,
+				8365C96913EDE09A00F20F16 /* FileAFP.cpp in Sources */,
+>>>>>>> Stub-out initial AFP client implementation
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
