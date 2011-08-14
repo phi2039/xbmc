@@ -8093,12 +8093,9 @@
 				3802709A13D5A653009493DD /* SystemClock.cpp in Sources */,
 				7CEE2E5B13D6B71E000ABF2A /* TimeSmoother.cpp in Sources */,
 				7C89674613C03B22003631FE /* InfoBool.cpp in Sources */,
-<<<<<<< HEAD
 				DFAB049813F8376700B70BFB /* InertialScrollingHandler.cpp in Sources */,
-=======
 				8365C96A13EDE09A00F20F16 /* AFPDirectory.cpp in Sources */,
 				8365C96B13EDE09A00F20F16 /* FileAFP.cpp in Sources */,
->>>>>>> Stub-out initial AFP client implementation
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8993,12 +8990,9 @@
 				4308680D13E3F65700698436 /* Implementation.cpp in Sources */,
 				4308681213E3F66600698436 /* DVDOverlayCodecTX3G.cpp in Sources */,
 				7C89674813C03B22003631FE /* InfoBool.cpp in Sources */,
-<<<<<<< HEAD
 				DFAB049913F8376700B70BFB /* InertialScrollingHandler.cpp in Sources */,
-=======
 				8365C96813EDE09A00F20F16 /* AFPDirectory.cpp in Sources */,
 				8365C96913EDE09A00F20F16 /* FileAFP.cpp in Sources */,
->>>>>>> Stub-out initial AFP client implementation
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
